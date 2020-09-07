@@ -184,5 +184,123 @@ logo-link{
   margin-bottom: 25px;
 }
 
+/* Price Section */
 
+.price-section{
+  background-color: #08243e;
+  background-image: url(../img/price-bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
 
+.price-section-content{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.price-section-inner{
+  padding: 100px 0;
+  width: 770px;
+  color: #000;
+}
+
+.price-section-heading{
+  font-size: 30px;
+  line-height: 1.2;
+  text-align: right;
+}
+
+.inputs-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.price-order-input{
+  width: 370px;
+  padding: 30px;
+  border: 1px solid transparent;
+  background-color: #f2f2f2;
+  outline: transparent;
+}
+
+.price-order-input:active,
+.price-order-input:focus{
+  border: 1px solid #818181;
+}
+
+.price-order-input::placeholder{
+  font-size: 13px;
+  color: #818181;
+  text-transform: uppercase;
+  line-height: 25px;
+}
+
+.email-input::placeholder{
+  background-image: url(../img/envelope.png);
+  background-repeat: no-repeat;
+  background-size: 20px 18px;
+  background-position: 100% 50%;
+}
+
+.tel-input::placeholder{
+  background-image: url(../img/call-answer.png);
+  background-repeat: no-repeat;
+  background-size: 20px 18px;
+  background-position: 100% 50%;
+}
+  
+.price-order-button-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price-order-info{
+  width: 370px;
+  padding: 20px 0;
+  align-items: center;
+}
+
+.price-order-info span{
+  display: inline-block;
+  font-size: 14px;
+  color: #000000;
+  line-height: 1.2;
+  text-align: right;
+  padding-right: 60px;
+}
+
+.price-order-info{
+  display: inline-block;
+  background-image: url(../img/clock.png);
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+  background-size: 30px 30px;
+  content: "";
+}
+
+.price-order-btn{
+  width: 370px;
+  display: inline-block;
+  padding: 30px;
+  border: 1px solid transparent;
+  font-size: 17px;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 1.2;
+  background-color: #1866af;
+  text-align: center;
+  text-transform: uppercase;
+  outline: transparent;
+}
+
+.price-order-btn:active,
+.price-order-btn:focus{
+  border: 1px solid #1866af;
+  color: #1866af;
+  background-color: #fff;
+}
