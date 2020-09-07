@@ -174,14 +174,59 @@ logo-link{
 }
 
 .promo-section-info{
-  display: block;
+  display: flex;
+  align-items: center;
   margin-bottom: 48px;
-  font-size: 18px;
-  line-height: 1.2;
 }
 
 .promo-section-info:last-child{
   margin-bottom: 25px;
+}
+
+.promo-section-info span{
+  font-size: 18px;
+  line-height: 1.2;
+  margin-left: 26px;
+}
+
+.piggy-bank::before{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/piggy-bank.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  content: "";
+}
+
+.delivery::before{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/delivery-truck-silhouette.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  content: "";
+}
+
+.star-symbol::before{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/star-symbol.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  content: "";
+}
+
+.medal::before{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/medal.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  content: "";
 }
 
 /* Price Section */
@@ -236,20 +281,18 @@ logo-link{
   font-size: 13px;
   color: #818181;
   text-transform: uppercase;
-  line-height: 25px;
+  line-height: 2;
 }
 
 .email-input::placeholder{
   background-image: url(../img/envelope.png);
   background-repeat: no-repeat;
-  background-size: 20px 18px;
   background-position: 100% 50%;
 }
 
 .tel-input::placeholder{
   background-image: url(../img/call-answer.png);
   background-repeat: no-repeat;
-  background-size: 20px 18px;
   background-position: 100% 50%;
 }
   
@@ -260,26 +303,29 @@ logo-link{
 }
 
 .price-order-info{
+  display: flex;
   width: 370px;
   padding: 20px 0;
   align-items: center;
+  justify-content: space-between;
 }
 
 .price-order-info span{
   display: inline-block;
+  width: 310px;
   font-size: 14px;
-  color: #000000;
   line-height: 1.2;
+  color: #000000;
   text-align: right;
-  padding-right: 60px;
 }
 
-.price-order-info{
+.price-order-info::after{
   display: inline-block;
+  width: 30px;
+  height: 30px;
   background-image: url(../img/clock.png);
   background-repeat: no-repeat;
-  background-position: 100% 50%;
-  background-size: 30px 30px;
+  background-position: center center;
   content: "";
 }
 
