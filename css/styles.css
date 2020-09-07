@@ -37,3 +37,105 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+/* Site Header */
+
+.site-header{
+  background-color: #191919;
+  padding: 25px 0;
+}
+
+.site-header-content,
+.site-header-left{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: opacity 0.3s ease;
+}
+
+logo-link{
+  display: block;
+}
+
+.logo-link:hover{
+  opacity: 0.8;
+}
+
+.logo-link:active{
+  opacity: 0.6;
+}
+
+.logo-img{
+  display: block;
+  width: 191px;
+  height: 40px;
+}
+
+.site-header-left{
+  width: 630px;
+}
+
+.header-working-hours{
+  margin: 0;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 2;
+}
+
+.header-phone-number{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 360px;
+}
+
+.phone-number a{
+  display: block;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease,
+  opacity 0.3s ease;
+}
+
+.phone-number a:hover{
+  color: #1669b3;
+}
+
+.phone-number a:active{
+  color: #1669b3;
+  opacity: 0.6;
+}
+
+.order-btn{
+  display: inline-block;
+  padding: 17px 29px;
+  border: 1px solid transparent;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  color: #fff;
+  background-color: #1669b3;
+  text-decoration: none;
+  transition: border 0.3s ease,
+  opacity 0.3s ease;
+}
+
+.order-btn:hover{
+  border: 1px solid #fff;
+}
+
+.order-btn:active{
+  border: 1px solid #fff;
+  opacity: 0.6;
+}
+
