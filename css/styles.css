@@ -350,3 +350,105 @@ logo-link{
   color: #1866af;
   background-color: #fff;
 }
+
+/* Delivery Info Section */
+
+.delivery-info{
+  padding: 80px 0;
+  background-color: #08243e;
+}
+
+.delivery-info-content{
+  text-align: center;
+}
+
+.delivery-info-heading{
+  font-size: 36px;
+  line-height: 43px;
+  color: #ffffff;
+  margin: 0;
+  padding: 27px 0 24px 0;
+}
+
+.delivery-info-subtitle{
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.delivery-info-list{
+  display: flex;
+  justify-content: space-between;
+  width: 1040px;
+  padding: 0;
+  margin: 0;
+  margin-top: 140px;
+  margin-bottom: 17px;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none;
+}
+
+.delivery-info-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+
+.delivery-info-item p{
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.engine::before{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 50px;
+  background-image: url(../img/engine.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  content: "";
+}
+
+.dump-truck::before{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 50px;
+  background-image: url(../img/dump-truck.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  content: "";
+}
+
+.calendar::before{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 50px;
+  background-image: url(../img/calendar.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  content: "";
+}
+
+.location::before{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 50px;
+  background-image: url(../img/location.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  content: "";
+}
+
