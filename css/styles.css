@@ -596,6 +596,17 @@ logo-link{
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  transition: color 0.3s ease,
+  opacity 0.3s ease;
+}
+
+.more-link:hover{
+  color: #f7b516;
+}
+
+.more-link:active{
+  color: #000;
+  opacity: 0.6;
 }
 
 .garanty::before{
