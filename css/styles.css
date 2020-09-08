@@ -264,14 +264,14 @@ logo-link{
 .price-order-input{
   width: 370px;
   padding: 30px;
-  border: 1px solid transparent;
+  border: 3px solid transparent;
   background-color: #f2f2f2;
   outline: transparent;
 }
 
 .price-order-input:active,
 .price-order-input:focus{
-  border: 1px solid #818181;
+  border: 3px solid #818181;
 }
 
 .price-order-input::placeholder{
@@ -330,7 +330,7 @@ logo-link{
   width: 370px;
   display: inline-block;
   padding: 30px;
-  border: 1px solid transparent;
+  border: 3px solid transparent;
   font-size: 17px;
   color: #ffffff;
   font-weight: bold;
@@ -346,7 +346,7 @@ logo-link{
 
 .price-order-btn:active,
 .price-order-btn:focus{
-  border: 1px solid #1866af;
+  border: 3px solid #1866af;
   color: #1866af;
   background-color: #fff;
 }
@@ -452,3 +452,87 @@ logo-link{
   content: "";
 }
 
+/* Detail Search Section */
+
+.detail-search{
+  background-color: #08243e;
+  background-image: url(../img/detail-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.detail-search-content{
+  padding: 80px 0;
+  text-align: center;
+}
+
+.detail-search-heading{
+  font-size: 30px;
+  line-height: 36px;
+  padding-top: 17px;
+  margin: 0;
+}
+
+.detail-search-subtitle{
+  font-size: 20px;
+  line-height: 24px;
+  padding-top: 20px;
+  margin: 0;
+}
+
+.detail-price-form{
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+  margin: 58px 0;
+}
+
+.detail-price-order-btn{
+  width: 370px;
+  display: inline-block;
+  padding: 30px;
+  border: 3px solid transparent;
+  font-size: 17px;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 1.2;
+  background-color: #f7b516;
+  text-align: center;
+  text-transform: uppercase;
+  outline: transparent;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.detail-price-order-btn:active,
+.detail-price-order-btn:focus{
+  color: #f7b516;
+  background-color: #fff;
+  border: 3px solid #f7b516;
+}
+
+.call-us-div p{
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0;
+  margin-bottom: 26px;
+}
+
+.call-us-div span{
+  display: block;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 11px;
+}
+
+.call-us-div a{
+  display: block;
+  margin-bottom: 18px;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
