@@ -125,6 +125,7 @@ logo-link{
   text-align: center;
   color: #fff;
   background-color: #1669b3;
+  background-image: linear-gradient( 125deg, rgb(39,53,136) 0%, rgb(28,98,172) 100%);
   text-decoration: none;
   transition: border 0.3s ease,
   opacity 0.3s ease;
@@ -180,7 +181,7 @@ logo-link{
 }
 
 .promo-section-info:last-child{
-  margin-bottom: 25px;
+  margin-bottom: 0;
 }
 
 .promo-section-info span{
@@ -240,14 +241,10 @@ logo-link{
 }
 
 .price-section-content{
-  display: flex;
-  justify-content: flex-end;
-}
-
-.price-section-inner{
   padding: 100px 0;
   width: 770px;
   color: #000;
+  margin-left: auto;
 }
 
 .price-section-heading{
@@ -342,6 +339,9 @@ logo-link{
   text-align: center;
   text-transform: uppercase;
   outline: transparent;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .price-order-btn:active,
