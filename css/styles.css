@@ -642,6 +642,107 @@ logo-link{
   background-size: contain;
 }
 
+/* Discounts */
+
+.discounts{
+  background-color: #08243e;
+  padding: 80px 0;
+}
+
+.discounts-content{
+  text-align: center;
+}
+
+.discounts-heading{
+    font-size: 36px;
+    line-height: 43px;
+    margin-top: 0;
+    margin-top: 17px;
+}
+
+.discounts-list{
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  padding: 0;
+  margin: 0;
+  margin-top: 96px;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none;
+}
+
+.discounts-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 230px;
+  margin-bottom: 18px;
+}
+
+.discounts-item span{
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 38px;
+}
+
+.product-discount::before{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: bold;
+  color: #fff;
+  content: "10%";
+}
+
+.annual-service::before{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: bold;
+  color: #fff;
+  content: "20%";
+}
+
+.free-delivery::before{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  background-image: url(../img/delivery-truck.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 56px 33px;
+  content: "";
+}
+
+.free-consulting::before{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  background-image: url(../img/telemarketer.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 35px 39px;
+  content: "";
+}
+
+  
 
   
   
