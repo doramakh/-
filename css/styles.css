@@ -371,10 +371,13 @@ logo-link{
 }
 
 .delivery-info-subtitle{
+  width: 384px;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 20px;
   line-height: 24px;
   color: #ffffff;
-  margin: 0;
 }
 
 .delivery-info-list{
@@ -654,10 +657,10 @@ logo-link{
 }
 
 .discounts-heading{
-    font-size: 36px;
-    line-height: 43px;
-    margin-top: 0;
-    margin-top: 17px;
+  font-size: 36px;
+  line-height: 43px;
+  margin-top: 0;
+  margin-top: 17px;
 }
 
 .discounts-list{
@@ -750,6 +753,9 @@ logo-link{
 }
 
 .stock-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 
@@ -761,9 +767,10 @@ logo-link{
 }
 
 .stock-subtitle{
+  width: 646px;
+  margin-top: 24px;
   font-size: 20px;
   line-height: 24px;
-  margin-top: 24px;
 }
 
 
@@ -784,9 +791,142 @@ logo-link{
   height: 270px;
 }
 
-  
+/* Features, Services Section */
 
- 
+.features, 
+.services{
+  padding: 80px 0;
+  background-color: #fff;
+  color: #000;
+}
+
+.features-heading, 
+.services-heading{
+  width: 821px;
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 17px;
+  margin-bottom: 96px;
+  text-align: center;
+}
+
+.features-list{
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none;
+}
+
+.services-list{
+  display: flex;
+  justify-content: space-between;
+  width: 950px;
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none;
+}
+
+.features-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+
+.services-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 215px;
+}
+
+.features-item span,
+.services-item span{
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.services-prepay::before{
+  display: inline-block;
+  width: 88px;
+  height: 88px;
+  margin-bottom: 47px;
+  background-image: url(../img/prepay.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  content: "";
+}
+
+.services-lastpay::before{
+  display: inline-block;
+  width: 88px;
+  height: 88px;
+  margin-bottom: 47px;
+  background-image: url(../img/last-pay.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  content: "";
+}
+.services-ordertime::before{
+  display: inline-block;
+  width: 88px;
+  height: 88px;
+  margin-bottom: 47px;
+  background-image: url(../img/order-time.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  content: "";
+}
+
+.features-delivery::before{
+  display: inline-block;
+  width: 170px;
+  height: 170px;
+  margin-bottom: 38px;
+  background-image: url(../img/features-delivery.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 50%;
+  border: 5px solid #ffbc3b;
+  content: "";
+}
+
+.features-toolbox::before{
+  display: inline-block;
+  width: 170px;
+  height: 170px;
+  margin-bottom: 38px;
+  background-image: url(../img/features-toolbox.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 50%;
+  border: 5px solid #ffbc3b;
+  content: "";
+}
+
+.features-certificate::before{
+  display: inline-block;
+  width: 170px;
+  height: 170px;
+  margin-bottom: 38px;
+  background-image: url(../img/features-certificate.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 50%;
+  border: 5px solid #ffbc3b;
+  content: "";
+}
+
 
 
 
