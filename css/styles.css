@@ -486,9 +486,13 @@ logo-link{
 
 .detail-price-form{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 1170px;
   margin: 58px 0;
+}
+
+.detail-price-form input{
+  margin-right: 30px;
 }
 
 .detail-price-order-btn{
@@ -927,7 +931,85 @@ logo-link{
   content: "";
 }
 
+/* Consultation */
 
+.consultation{
+  background-color: #08243e;
+  background-image: url(../img/consultation-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
 
+.consultation-content{
+  padding-top: 80px;
+  padding-bottom: 42px;
+  text-align: center;
+}
+
+.counsultation-heading{
+  font-size: 30px;
+  line-height: 36px;
+  margin-top: 17px;
+  margin-bottom: 55px;
+}
+
+/* Map */
+
+.map-link{
+  display: block;
+}
+
+/* Site footer */
+
+.site-footer{
+  background-color: #000;
+}
+
+.site-footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+.footer-center{
+  display: flex;
+  align-items: center;
+}
+
+.footer-center span{
+  margin-right: 10px;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+
+.footer-right{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-right span{
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.footer-right a{
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 22px;
+  color: #fff;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.footer-right a:hover{
+  opacity: 0.6;
+}
 
 
